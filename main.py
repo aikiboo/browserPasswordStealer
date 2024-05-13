@@ -19,6 +19,7 @@ appdata_folder = os.getenv('LOCALAPPDATA')
 
 browsers = {
     'brave': appdata_folder + '\\BraveSoftware\\Brave-Browser\\User Data',
+    'microsoft-edge': appdata_folder + '\\Microsoft\\Edge\\User Data',
     'google-chrome': appdata_folder + '\\Google\\Chrome\\User Data'
 }
 
